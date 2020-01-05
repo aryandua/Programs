@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+
+  const long long BIGNUM = 314159265358979LL;
+  const int MOD = 14000605;
+  
+  int main() {
+    long long input;
+    cin >> input;
+    for (long long i = 0; i < BIGNUM; i++) {
+      input = (512*input + 2019) % MOD;
+    }
+    cout << input << endl;
+    return 0;
+}

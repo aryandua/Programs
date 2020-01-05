@@ -1,0 +1,37 @@
+p - a
+o - b
+i - c 
+u - d
+y - e
+t - f
+r - g
+e - h
+w - i
+q - j
+m - k
+n - l
+b - m
+v - n
+c - o
+x - p
+z - q 
+l - r
+k - s
+j-  t
+h - u
+g - v 
+f - w
+d - x
+s - y
+a - z
+0 - 1
+9 - 2 
+8 - 3
+7 - 4
+6 - 5
+5 - 6
+4 - 7
+3 - 8
+2 - 9
+1 - 0
+

@@ -1,0 +1,18 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+string normstring = "abcdefghijklmnopqrstuvwxyz0123456789";
+string altstring = "1poiuytrewqmnbvcxzlkjhgfdsa098765432";
+string check = "4915b2hqs61e9zpp8ezb2cpg3v";
+int main() {
+  string ans;
+  for(int i=0;i<check.size();i++) {
+    for(int j=0;j<36;j++) {
+      if(altstring[j] == check[i]) {
+	ans.push_back(normstring[j]);
+      }
+    }
+  }
+  cout << ans << endl;
+}
+
